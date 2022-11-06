@@ -114,7 +114,7 @@ public class Config {
 
     public static Config wall() {
         Config item = AppDatabase.get().getConfigDao().find(2);
-        return item == null ? create("", 2) : item;
+        return item == null ? create("https://tool.weetai.cn/api", 2) : item;
     }
 
     public static Config find(int id) {
