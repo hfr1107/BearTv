@@ -109,7 +109,7 @@ public class Config {
 
     public static Config live() {
         Config item = AppDatabase.get().getConfigDao().find(1);
-        return item == null ? create("", 1) : item;
+        return item == null ? create("https://agit.ai/hfr1107/vvbox/raw/branch/main/live/live.txt", 1) : item;
     }
 
     public static Config wall() {
