@@ -104,7 +104,7 @@ public class Config {
 
     public static Config vod() {
         Config item = AppDatabase.get().getConfigDao().find(0);
-        return item == null ? create("", 0) : item;
+        return item == null ? create("https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json", 0) : item;
     }
 
     public static Config live() {
